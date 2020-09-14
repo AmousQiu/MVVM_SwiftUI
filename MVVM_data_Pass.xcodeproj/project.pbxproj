@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		929E44EF24B39F6F0064EBEA /* MVVM_data_PassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E44EE24B39F6F0064EBEA /* MVVM_data_PassApp.swift */; };
+		929E44F324B39F720064EBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929E44F224B39F720064EBEA /* Assets.xcassets */; };
+		929E44F624B39F720064EBEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929E44F524B39F720064EBEA /* Preview Assets.xcassets */; };
+		929E44FE24B39FDF0064EBEA /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E44FD24B39FDF0064EBEA /* WebService.swift */; };
+		929E450224B3AAFC0064EBEA /* RegattaActive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E450124B3AAFC0064EBEA /* RegattaActive.swift */; };
+		929E450424B3AB250064EBEA /* Regatta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E450324B3AB250064EBEA /* Regatta.swift */; };
+		929E450624B3ABFE0064EBEA /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E450524B3ABFE0064EBEA /* Day.swift */; };
+		929E450E24B3ACB90064EBEA /* RegattaActiveListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E450D24B3ACB90064EBEA /* RegattaActiveListViewModel.swift */; };
+		929E451024B3AD270064EBEA /* DrawDaysListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E450F24B3AD270064EBEA /* DrawDaysListViewModel.swift */; };
+		929E451424B3ADE40064EBEA /* RegattaActiveListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E451324B3ADE40064EBEA /* RegattaActiveListView.swift */; };
+		929E451624B3B2600064EBEA /* DrawDaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E451524B3B2600064EBEA /* DrawDaysListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		929E44EB24B39F6F0064EBEA /* MVVM_data_Pass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_data_Pass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929E44EE24B39F6F0064EBEA /* MVVM_data_PassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_data_PassApp.swift; sourceTree = "<group>"; };
+		929E44F224B39F720064EBEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929E44F524B39F720064EBEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		929E44F724B39F720064EBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929E44FD24B39FDF0064EBEA /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		929E450124B3AAFC0064EBEA /* RegattaActive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegattaActive.swift; sourceTree = "<group>"; };
+		929E450324B3AB250064EBEA /* Regatta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regatta.swift; sourceTree = "<group>"; };
+		929E450524B3ABFE0064EBEA /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		929E450D24B3ACB90064EBEA /* RegattaActiveListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegattaActiveListViewModel.swift; sourceTree = "<group>"; };
+		929E450F24B3AD270064EBEA /* DrawDaysListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDaysListViewModel.swift; sourceTree = "<group>"; };
+		929E451324B3ADE40064EBEA /* RegattaActiveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegattaActiveListView.swift; sourceTree = "<group>"; };
+		929E451524B3B2600064EBEA /* DrawDaysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDaysListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929E44E824B39F6F0064EBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929E44E224B39F6F0064EBEA = {
+			isa = PBXGroup;
+			children = (
+				929E44ED24B39F6F0064EBEA /* MVVM_data_Pass */,
+				929E44EC24B39F6F0064EBEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929E44EC24B39F6F0064EBEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929E44EB24B39F6F0064EBEA /* MVVM_data_Pass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929E44ED24B39F6F0064EBEA /* MVVM_data_Pass */ = {
+			isa = PBXGroup;
+			children = (
+				929E450C24B3AC900064EBEA /* View */,
+				929E450B24B3AC840064EBEA /* ViewModel */,
+				929E450A24B3AC540064EBEA /* Service */,
+				929E450724B3AC290064EBEA /* Model */,
+				929E44EE24B39F6F0064EBEA /* MVVM_data_PassApp.swift */,
+				929E44F224B39F720064EBEA /* Assets.xcassets */,
+				929E44F724B39F720064EBEA /* Info.plist */,
+				929E44F424B39F720064EBEA /* Preview Content */,
+			);
+			path = MVVM_data_Pass;
+			sourceTree = "<group>";
+		};
+		929E44F424B39F720064EBEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				929E44F524B39F720064EBEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		929E450724B3AC290064EBEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				929E450124B3AAFC0064EBEA /* RegattaActive.swift */,
+				929E450324B3AB250064EBEA /* Regatta.swift */,
+				929E450524B3ABFE0064EBEA /* Day.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		929E450A24B3AC540064EBEA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				929E44FD24B39FDF0064EBEA /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		929E450B24B3AC840064EBEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				929E450D24B3ACB90064EBEA /* RegattaActiveListViewModel.swift */,
+				929E450F24B3AD270064EBEA /* DrawDaysListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		929E450C24B3AC900064EBEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				929E451324B3ADE40064EBEA /* RegattaActiveListView.swift */,
+				929E451524B3B2600064EBEA /* DrawDaysListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929E44EA24B39F6F0064EBEA /* MVVM_data_Pass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929E44FA24B39F720064EBEA /* Build configuration list for PBXNativeTarget "MVVM_data_Pass" */;
+			buildPhases = (
+				929E44E724B39F6F0064EBEA /* Sources */,
+				929E44E824B39F6F0064EBEA /* Frameworks */,
+				929E44E924B39F6F0064EBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVM_data_Pass;
+			productName = MVVM_data_Pass;
+			productReference = 929E44EB24B39F6F0064EBEA /* MVVM_data_Pass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929E44E324B39F6F0064EBEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					929E44EA24B39F6F0064EBEA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 929E44E624B39F6F0064EBEA /* Build configuration list for PBXProject "MVVM_data_Pass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929E44E224B39F6F0064EBEA;
+			productRefGroup = 929E44EC24B39F6F0064EBEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929E44EA24B39F6F0064EBEA /* MVVM_data_Pass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929E44E924B39F6F0064EBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E44F624B39F720064EBEA /* Preview Assets.xcassets in Resources */,
+				929E44F324B39F720064EBEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929E44E724B39F6F0064EBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E451024B3AD270064EBEA /* DrawDaysListViewModel.swift in Sources */,
+				929E44FE24B39FDF0064EBEA /* WebService.swift in Sources */,
+				929E450424B3AB250064EBEA /* Regatta.swift in Sources */,
+				929E450624B3ABFE0064EBEA /* Day.swift in Sources */,
+				929E451624B3B2600064EBEA /* DrawDaysListView.swift in Sources */,
+				929E450224B3AAFC0064EBEA /* RegattaActive.swift in Sources */,
+				929E450E24B3ACB90064EBEA /* RegattaActiveListViewModel.swift in Sources */,
+				929E451424B3ADE40064EBEA /* RegattaActiveListView.swift in Sources */,
+				929E44EF24B39F6F0064EBEA /* MVVM_data_PassApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		929E44F824B39F720064EBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		929E44F924B39F720064EBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929E44FB24B39F720064EBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MVVM_data_Pass/Preview Content\"";
+				DEVELOPMENT_TEAM = JHLEUP2UE8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MVVM_data_Pass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.immediaC.MVVM-data-Pass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		929E44FC24B39F720064EBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MVVM_data_Pass/Preview Content\"";
+				DEVELOPMENT_TEAM = JHLEUP2UE8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MVVM_data_Pass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.immediaC.MVVM-data-Pass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929E44E624B39F6F0064EBEA /* Build configuration list for PBXProject "MVVM_data_Pass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929E44F824B39F720064EBEA /* Debug */,
+				929E44F924B39F720064EBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929E44FA24B39F720064EBEA /* Build configuration list for PBXNativeTarget "MVVM_data_Pass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929E44FB24B39F720064EBEA /* Debug */,
+				929E44FC24B39F720064EBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929E44E324B39F6F0064EBEA /* Project object */;
+}

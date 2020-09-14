@@ -11,7 +11,7 @@ class WebService{
     
     // Fetch all the active regattas
     func fetchRegattaActiveJSON(completion: @escaping ([RegattaActive]?) -> ()) {
-        let urlString = "http://champsapi2.immediac.com/api/v1/regattas/active"
+        let urlString = ""
         guard let url = URL(string: urlString) else { return }
         
         URLSession.shared.dataTask(with: url) { data, response, error in
@@ -31,7 +31,7 @@ class WebService{
     
     //Fetch the current Regatta
     func fetchRegattaJSON(regId:Int,completion: @escaping (Regatta?) -> ()) {
-        let urlString = "http://champsapi2.immediac.com/api/v1/regattas/2-"+String(regId)
+        let urlString = ""+String(regId)
         print(urlString)
         guard let url = URL(string: urlString) else { return }
         
